@@ -257,6 +257,7 @@ public class AdminHomePageController implements Initializable {
         Float p4 = (float)nCovaxin/(nCovaxin + nCovishield);
         Progress3.setProgress(p3);
         Progress4.setProgress(p4);
+        //done;
         
         
     }
