@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cowinn.MainPageController">
+   <children>
+      <ImageView fitHeight="258.0" fitWidth="900.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/NarendraModi.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="286.0" fitWidth="900.0" layoutY="318.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/Partners.png" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="70.0" prefWidth="900.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="18.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/CoWin%20Logo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="userBTN" layoutX="754.0" layoutY="18.0" mnemonicParsing="false" onAction="#btn1" onMousePressed="#glowR" onMouseReleased="#defaultR" style="-fx-background-color: #f5b437#f5b437;" text="Register | Sign in" underline="true">
+                <font>
+                    <Font name="Avenir Next Bold" size="13.0" />
+                </font>
+            </Button>
+            <Button fx:id="adminBTN" layoutX="649.0" layoutY="18.0" mnemonicParsing="false" onAction="#adminLoginFunc" onMousePressed="#glowA" onMouseReleased="#defaultA" style="-fx-background-color: #f5b437#f5b437;" text="Admin Login" underline="true">
+               <font>
+                  <Font name="Avenir Next Bold" size="13.0" />
+               </font>
+            </Button>
+            
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
